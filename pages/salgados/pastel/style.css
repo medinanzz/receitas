@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    --font-size: 1.12em;
+    --font-family: sans-serif;
+}
+
+header {
+    background-color: #25242a;
+    box-shadow: 0px 6px 15px #464646;
+}
+
+main {
+    margin: 0 10px;
+    width: 65%;
+}
+
+.div {
+    gap: 18px;
+    margin-left: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+
+h1, h2, h3, ul, ol {
+    font-family: var(--font-family);
+    letter-spacing: .58px;
+}
+
+.t {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.b {
+    font-size: var(--font-size);
+    text-decoration: underline #6b6600;
+}
+
+ul, ol {
+    line-height: 2em;
+    font-size: 1em;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    --font-family: sans-serif;
+}
+
+header {
+    background-color: #25242a;
+    box-shadow: 0px 6px 15px #464646;
+}
+
+h1, h2, h3, ul, li {
+    font-family: var(--font-family);
+}
+
+.div {
+    display: flex;
+    gap: 18px;
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+.t {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+b {
+    font-size: 1.09em;
+    text-decoration: underline #6b6600;
+}
+
+ul, ol {
+    width: 65%;
+    line-height: 2em;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

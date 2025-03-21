@@ -1,0 +1,55 @@
+body {
+    --font-size: 1.12em;
+    --font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #25242a;
+    box-shadow: 0px 6px 15px #464646;
+}
+
+.div {
+    gap: 18px;
+    display: flex;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 10px;
+    margin-right:  10px;
+}
+
+h1, h2, h3, ul {
+    font-family: var(--font-family);
+}
+
+.t {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+b, ul {
+    font-size: var(--font-size);
+}
+
+.b {
+    text-decoration: underline #6b6600;
+}
+
+ul {
+    line-height: 2em;
+    width: 65%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

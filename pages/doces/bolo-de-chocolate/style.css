@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #25242a;
+    box-shadow: 0px 6px 15px #464646;
+}
+
+.div {
+    display: flex;
+    gap: 18px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.t {
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.t-3 {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+}
+
+ul, ol {
+    font-family: sans-serif;
+    line-height: 2em;
+    width: 65%;
+}
+
+.b {
+    text-decoration: underline #6b6a2d;
+    font-size: 1.12em;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
